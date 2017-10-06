@@ -23,11 +23,6 @@ mongoose.connection.once('open', () => console.log('Database is ready!'))
 
 app.use(express.static(publicPath));
 
-app.get('/', function(req, res){
-  console.log('hihi');
-
-
-});
 
 
 server.listen(port, () => {

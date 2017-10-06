@@ -4,11 +4,11 @@
 $( "#home" ).click(function() {
 
   $(".main-content").fadeOut("slow",function(){
-     window.location.href = "index.html";
+     window.location.href = "/";
   });
 
   $(".main-content-project").fadeOut("slow",function(){
-     window.location.href = "index.html";
+     window.location.href = "/";
   });
 
 });
@@ -19,11 +19,11 @@ $( "#home" ).click(function() {
 $( "#projects" ).click(function() {
 
   $(".main-content").fadeOut("slow",function(){
-     window.location.href = "project.html";
+     window.location.href = "project";
   });
 
   $(".main-content-project").fadeOut("slow",function(){
-     window.location.href = "project.html";
+     window.location.href = "project";
   });
 
 });

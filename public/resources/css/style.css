@@ -13,11 +13,15 @@ dark blue: ##2B5DB4
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    color:#373737;  /* not a true black*/
+    color:#494949;  /* not a true black*/
 }
 
 h1,h2{
   font-family: <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+}
+
+.title{
+  color: #373737;
 }
 
 p{
@@ -68,6 +72,18 @@ p{
     height: 2px;
     /*background-color: #2B5DB4;*/
     background: linear-gradient(to right,#2B5DB4, #ffffff);
+    content: "";
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 0px;
+    float:left;
+}
+
+.subUnderline{
+    display:block;
+    height: 2px;
+    background-color: #484848;
+
     content: "";
     width: 900px;
     margin: 0 auto;
@@ -174,6 +190,10 @@ p{
 }
 
 .main-content-project{
+  display: none;
+}
+
+.main-content-project-special{
   display: none;
 }
 
@@ -340,7 +360,7 @@ a:active{
     display:none;
 }
 
-li{
+.nav-bar li{
     list-style-type: none;
 }
 

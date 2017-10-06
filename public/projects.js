@@ -4,4 +4,8 @@ $( document ).ready(function() {
 
   });
 
+  $( ".main-content-project-special" ).fadeIn( "slow", function() {
+
+  });
+
 });
