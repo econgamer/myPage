@@ -1,14 +1,27 @@
 {
   "name": "my_portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "michael",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.0",
+    "mongoose-validators": "^0.1.0",
     "normalize.css": "^7.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/econgamer/myPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/econgamer/myPage/issues"
+  },
+  "homepage": "https://github.com/econgamer/myPage#readme",
+  "description": ""
 }
