@@ -113,6 +113,24 @@ p{
   left: 3.5%;
 }
 
+.logo:hover{
+  cursor: pointer;
+  /*width: 82.5px;
+  height: 41.5px;*/
+  /*Need to use rem in order to fixed the size*/
+  width: 5rem;
+  height: 2.51515151515rem;
+
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  position: absolute;
+  top: 3.5%;
+  left: 3.5%;
+}
+
+
+
 /* Projects img */
 .projectContainer {
   position: relative;
@@ -193,7 +211,16 @@ p{
   display: none;
 }
 
-.main-content-project-special{
+.main-content-project-detail{
+  display: none;
+}
+
+.main-content-about{
+  display: none;
+}
+
+
+.main-content-contact{
   display: none;
 }
 
@@ -227,6 +254,16 @@ p{
 
 .main-nav li p:hover,
 .main-nav li p:active{
+    /*border-bottom: 2px solid #5e90e7;*/
+    color: #41ABE1;
+    cursor: pointer;
+}
+
+
+
+
+.linkToHover:hover,
+.linkToHover:active{
     /*border-bottom: 2px solid #5e90e7;*/
     color: #41ABE1;
     cursor: pointer;
