@@ -12,7 +12,20 @@ var lineDrawing = anime({
 $( document ).ready(function() {
 
   var folded = new OriDomi('.paper');
-  console.log(folded);
+
+  $( ".paper" ).hover(
+  function() {
+    console.log("Paper trick: " ,folded._lastOp.angle);
+
+    if(folded._lastOp.angle < 25){
+      $('.hint').css("display", "none");
+    }
+    // else{
+    //   $('.hint').css("display", "block");
+    // }
+  },
+);
+
   folded.reveal(82);
 
   setTimeout(function(){ $( ".opening" ).fadeOut( "slow", function() {

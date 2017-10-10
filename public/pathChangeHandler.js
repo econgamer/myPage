@@ -1,7 +1,7 @@
 // Page change handler
 
 // home link
-$( "#home" ).click(function() {
+$( '[id^="home"]' ).click(function() {
 
   $(".main-content").fadeOut("slow",function(){
      window.location.href = "/";
@@ -27,7 +27,7 @@ $( "#home" ).click(function() {
 
 //about link
 
-$( "#about" ).click(function() {
+$( '[id^="about"]' ).click(function() {
 
 
   $(".main-content").fadeOut("slow",function(){
@@ -57,7 +57,7 @@ $( "#about" ).click(function() {
 
 
 // project link
-$( "#projects" ).click(function() {
+$( '[id^="projects"]' ).click(function() {
 
   console.log("project button click");
 
@@ -85,7 +85,7 @@ $( "#projects" ).click(function() {
 
 
 // contact link
-$( "#contact" ).click(function() {
+$( '[id^="contact"]' ).click(function() {
 
   console.log("project button click");
 

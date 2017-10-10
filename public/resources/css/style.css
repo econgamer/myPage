@@ -202,6 +202,21 @@ p{
 }
 
 
+/*a keywords */
+#contact{
+  cursor: pointer;
+}
+
+#about{
+  cursor: pointer;
+}
+
+#projects{
+  cursor: pointer;
+}
+
+
+
 /* Main content */
 .main-content{
   display: none;
