@@ -367,8 +367,18 @@ a:active{
 }
 */
 
+/* bottom */
+
 .bottom{
   text-align: center;
+}
+
+.bottom:hover a{
+  color: #41ABE1;
+}
+
+.bottom p{
+  font-size: 15px;
 }
 
 .social-links{
@@ -390,6 +400,7 @@ a:active{
 
 .ion-social-github:hover{
     color: #3399ff;
+    /*opacity: 1;*/
 }
 
 
