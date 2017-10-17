@@ -38,7 +38,7 @@ $( document ).ready(function() {
     // else{
     //   $('.hint').css("display", "block");
     // }
-  },
+  }
 );
 
   folded.reveal(82);
