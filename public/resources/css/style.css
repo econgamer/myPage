@@ -326,12 +326,12 @@ p{
 }
 
 .section-profile img{
-    border-radius: 50%;
-    width: 190px;
-    height: 190px;
+    border-radius: 10%;
+    width: 200px;
+    /*height: 190px;*/
     display: inline;
     float: right;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 }
 
 .section-profile .name{
